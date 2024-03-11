@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Sports News</h1>
+    <ul>
+        {% for article in sports_articles %}
+            <li>
+                <h3> {{ article.title }} </h3>
+                <p> {{ article.content }} </p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

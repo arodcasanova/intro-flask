@@ -1,0 +1,6 @@
+__pycache__/
+.Python/
+.idea/
+bin/
+lib/
+keys
